@@ -199,6 +199,9 @@ nav ul li a{
     text-align: initial;
 }
 @media screen and (max-width: 770px){
+    body{
+        overflow-x:hidden ;
+    }
     .title-text h1{
         font-size: 35px;
     }
@@ -277,6 +280,9 @@ hr{
     opacity: 1;
 }
 @media screen and (max-width: 770px){
+    body{
+        overflow-x:hidden ;
+    }
     .single-service{
         flex-basis: 100%;
         margin-bottom: 30px;
@@ -300,7 +306,7 @@ hr{
 }
 
 .project-row{
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -344,6 +350,9 @@ hr{
 
 }
 @media screen and (max-width: 770px){
+    body{
+        overflow-x:hidden ;
+    }
     .project-col{
         flex-basis: 100%;
     }
@@ -415,6 +424,9 @@ hr{
     font-weight: bold;
 }
 @media screen and (max-width: 770px){
+    body{
+        overflow-x:hidden ;
+    }
     .footer-left,.footer-right{
         flex-basis: 100%;
         font-size: 14px;
