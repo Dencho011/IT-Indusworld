@@ -36,7 +36,7 @@
     margin: 70px auto 0;
 }
 .banner-btn a{
-    width: 150px;
+    width: 250px;
     text-decoration: none;
     display: inline-block;
     margin: 0 10px;
@@ -199,9 +199,6 @@ nav ul li a{
     text-align: initial;
 }
 @media screen and (max-width: 770px){
-    body{
-        overflow-x:hidden ;
-    }
     .title-text h1{
         font-size: 35px;
     }
@@ -280,9 +277,6 @@ hr{
     opacity: 1;
 }
 @media screen and (max-width: 770px){
-    body{
-        overflow-x:hidden ;
-    }
     .single-service{
         flex-basis: 100%;
         margin-bottom: 30px;
@@ -300,9 +294,8 @@ hr{
 /*PROJECT*/
 #project{
     width: 100%;
-    padding: 10% 0;
-    
- 
+    padding: 10px 0;
+    background: #efefef;
 }
 
 .project-row{
