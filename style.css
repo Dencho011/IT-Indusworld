@@ -36,7 +36,7 @@
     margin: 70px auto 0;
 }
 .banner-btn a{
-    width: 150px;
+    width: 250px;
     text-decoration: none;
     display: inline-block;
     margin: 0 10px;
@@ -282,7 +282,7 @@ hr{
         margin-bottom: 30px;
     }
     .service-desc p{
-        font-size: 12px;
+        font-size: 14px;
       }
       hr{
           margin: 5px auto;
@@ -294,13 +294,12 @@ hr{
 /*PROJECT*/
 #project{
     width: 100%;
-    padding: 10% 0;
-    
- 
+    padding: 10px 0;
+    background: #efefef;
 }
 
 .project-row{
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -344,6 +343,9 @@ hr{
 
 }
 @media screen and (max-width: 770px){
+    body{
+        overflow-x:hidden ;
+    }
     .project-col{
         flex-basis: 100%;
     }
@@ -415,6 +417,9 @@ hr{
     font-weight: bold;
 }
 @media screen and (max-width: 770px){
+    body{
+        overflow-x:hidden ;
+    }
     .footer-left,.footer-right{
         flex-basis: 100%;
         font-size: 14px;
